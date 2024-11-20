@@ -559,6 +559,8 @@
                 1. Render the entire react app inside 'BrowserRouter' component of react-router-dom Library, provide this step inside main.jsx file
                 2. Inorder to set up path for component, make sure each component must be inside 'Routes' Compoenet of react-router-dom Library, provide this step inside App.jsx file
                 3. To set up path for component, use 'Route' component of react-router-dom Library. Route Compoenet has attributes like 'path' and 'element' inorder setup route for component. All Route component must be inside Routes component
+            - Dynamic Routing : we can set up a dynamic or changing value in a url along with : symbol, so react app will understand value along with a : is dynamic part of this url.
+            - To set up Page not found url use path as * and its path must be set up at the end of all url in react app
         16. Higher Order Compoenets (HOC) : are component whose props argument will give another Compoenet, ex: Route component
         17. API Call in react :
             - Using Axios Library : install axios - npm i axios
@@ -619,8 +621,9 @@
             - createSlice() : used to combine action and reducer in a single file. return action and reducer . it accept initial state, slice name, object of reducer
                 - steps slice for react app
                     - create js file for defining slice 
-                    - createSlice method call where we have to define reducers as objects, its key act as action and its value act as reducer function it has minimum one argument which gives slice state        
-        4. Hooks used in Compoenet for managing state using redux
+                    - createSlice method call where we have to define reducers as objects, its key act as action and its value act as reducer function it has minimum one argument which gives slice state 
+            - createAsyncThunk() : used to make asynchronous call in an action in redux. It accepts 2 arguments, first is action type string ("slice-name/action-name"), 2nd argument is a callbackFn, it can return promise. Its output can be in 3 different types. pending state/ fulfilled state/reject state. 'ExtraReducers' in slice can handle promise return action. because it has defined different cases to update slice state, based on promise output.       
+        4. Hooks used in Component for managing state using redux
              - useSelector(state=>state.reducer-name) : used to select state from store in a component
              - useDispatch() : used to execute an action from a component. Hook will return a function that is capable of dispatching an action as its argument when we call the function
                 - action without argument : dispatch-function(action-name())
