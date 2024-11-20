@@ -1,8 +1,24 @@
-# React + Vite
+# 🛍️ eCart - React + Vite  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a shopping website built using **React** and **Vite** for optimal performance and fast development. The site allows users to explore products, view details and reviews, manage their wishlist and cart, and check out with the total price.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+
+- **Product Browsing**: Explore various products with an easy-to-navigate UI.  
+- **Detailed Product View**: Access specifications, descriptions, and user reviews.  
+- **Wishlist**: Save favorite products for future purchases.  
+- **Cart Management**: Add items to the cart, adjust quantities, and review selections.  
+- **Checkout Summary**: Calculate and view the total price before checkout.  
+- **Responsive Design**: Fully functional across all devices.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **React**
+- **Redux**  
+- **Tailwind CSS**  
+
+---
