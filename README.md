@@ -22,3 +22,7 @@ This project is a shopping website built using **React** and **Vite** for optima
 - **Tailwind CSS**  
 
 ---
+## 🌐 Deployed Link  
+
+Check out the live project: [eCart Live Demo](https://e-cart-green.vercel.app/)  
+
